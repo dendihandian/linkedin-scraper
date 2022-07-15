@@ -1,3 +1,6 @@
+# ignore chromium driver
+chromedriver.exe
+
 # ignore test scripts
 test.py
 test.ipynb

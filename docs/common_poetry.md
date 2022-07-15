@@ -4,13 +4,15 @@
 
 ### Installing a package
 
-installing requests package as example:
+installing `requests` package as example:
 
 ```
 poetry add requests
 ```
 
-### Exporting Dependencies as Common Python Requirements
+### Exporting dependencies
+
+exporting dependencies used in poetry into python common _requirements.txt_ file
 
 ```
 poetry export -f requirements.txt --without-hashes > requirements.txt
