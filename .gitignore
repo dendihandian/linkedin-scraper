@@ -1,3 +1,13 @@
+# ignore generated directories
+.venv
+.pytest_cache
+
+# ignore these directories everywhere
+**/__pycache__
+
+# ignore log files
+geckodriver.log
+
 # ignore chromium driver
 chromedriver.exe
 
