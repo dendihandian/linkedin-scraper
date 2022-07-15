@@ -4,3 +4,4 @@ chromedriver.exe
 # ignore test scripts
 test.py
 test.ipynb
+test.html
